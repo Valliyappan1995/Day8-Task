@@ -1,0 +1,22 @@
+.form-container {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 24px;
+  border: 2px solid;
+  text-align: center;
+  display: inline-block;
+}
+
+input {
+  display: block;
+}
+
+th,
+table,
+td,
+tr {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: center;
+}

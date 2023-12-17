@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="Calculator.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="calcBox">
+      <table cellpadding="0" cellspacing="0" ;>
+        <tr>
+          <td id="displayBar" colspan="4">0</td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <button onclick="getValue(this)" class="button" id="AC">AC</button>
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="getValue(this)" class="button">+</button></td>
+          <td><button onclick="getValue(this)" class="button">-</button></td>
+          <td><button onclick="getValue(this)" class="button">*</button></td>
+          <td><button onclick="getValue(this)" class="button">/</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="getValue(this)" class="button">9</button></td>
+          <td><button onclick="getValue(this)" class="button">8</button></td>
+          <td><button onclick="getValue(this)" class="button">7</button></td>
+          <td>
+            <button onclick="getValue(this)" id="disabled" class="button">
+              <span class="hide">H</span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="getValue(this)" class="button">6</button></td>
+          <td><button onclick="getValue(this)" class="button">5</button></td>
+          <td><button onclick="getValue(this)" class="button">4</button></td>
+          <td>
+            <button onclick="getValue(this)" id="disabled" class="button">
+              <span class="hide">H</span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="getValue(this)" class="button">3</button></td>
+          <td><button onclick="getValue(this)" class="button">2</button></td>
+          <td><button onclick="getValue(this)" class="button">1</button></td>
+          <td>
+            <button onclick="getValue(this)" id="disabled" class="button">
+              <span class="hide">H</span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="getValue(this)" class="button">C</button></td>
+          <td><button onclick="getValue(this)" class="button">0</button></td>
+          <td><button onclick="getValue(this)" class="button">.</button></td>
+          <td>
+            <button onclick="getValue(this)" id="disabled" class="button">
+              <span class="hide">H</span>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <button onclick="getValue(this)" class="button" id="eval">=</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script type="text/javascript" src="Calculator.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>
